@@ -481,15 +481,191 @@ for (let i=1;i<11;i++){
 // }
 
 
+let a1 = 10;
+
+while(a1<0){
+    console.log(a1);
+    a1--
+    
+}
+
+// intiazaliation
+//  do {
+//     statement ; iteration
+//  }
+
+//  while(condition)
+
+console.clear()
+let number  = 10
+
+do{
+    
+        console.log(number);number++
+        
+    
+    
+}
+while (number<20)
+console.clear();
+
+
+    // for of loop 
+
+
+    // let lang = "javascript"
+
+    // for(let a of lang){
+    //     console.log(a);
+        
+    // }
+
+    // for in loop 
+
+    // for(let b in lang){
+    //     console.log(lang[b]);
+        
+    // }
 
 
 
 
 
+// function one(){
+//     console.log("hello everyone");
+    
+// }
+
+// one()
+
+// let person = {
+//     name : "keerthi",
+//     age : 22
+// }
+
+// function print(){
+//     console.log("hello ",person.name);
+//     console.log("hello ",person.age);
+    
+// }
+
+// print()
+
+
+
+// 1. named function 
+
+// function hello(){
+//     statement
+
+// }
+
+// hello()
+
+// 2.annonymous function 
+
+// let hi = function(){
+//     console.log("h");   
+// }
+
+// hi()
+
+// 3.arrow function 
+
+// let arrow = ()=>{
+//   console.log("hello");
+  
+// }
+
+// arrow()
+
+
+// let person1 = {
+//     name : "livi",
+//     age : 67
+// }
+
+// let arrow = (name,age)=>{
+//     console.log(`hi ${name}, your age is : ${age}`);
+// }
+
+// arrow("kamal",22)
+// arrow("livi",22)
+// arrow("navi",22)
+
+
+
+// let arrow1 = ()=>{
+//     console.log(`hi ${person1.name}, your age is : ${person1.age}`);
+// }
+
+// arrow1()
+
+
+
+// default parameter
+
+
+// let employeeId = "Av123"
+
+// let newId = employeeId && "uq1123"
+
+// console.log(newId);
+
+// function userData(uName="people",newId=20){
+//     console.log(`hi ${uName}, my Age ${newId}`);
+    
+// }
+
+// userData("navi",3)
+
+ 
+// function findAreaOfRect(l,b){
+//     let condition = true;
+//     if(condition){
+//         return l*b
+//     }else{
+//         return null
+//     }
+// }
+// let z =  findAreaOfRect(10,20)
+// console.log(z);
 
 
 
 
+
+// function hi(num){
+//     return(num**3)
+// }
+
+// let calc = hi(prompt("enter the val : "))
+
+// alert(calc);
+
+
+// function nonReturn (num){
+//     return(num);
+// }
+
+// let add = nonReturn(3)
+// console.log(add);
+
+
+// var -- global scope
+// let -- block scope
+// const -- block scope
+
+
+console.log(aa);
+var aa = 10;
+
+let bb = 10
+console.log(bb);
+
+
+const cc = 10
+console.log(cc);
 
 
 
