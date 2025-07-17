@@ -857,9 +857,153 @@ let gen = genFunction()
 
 console.log(gen.next().value);
 console.log(gen.next().value);
+console.log(gen.next().value);
 console.log(gen.next());
 console.log(gen.next());
-console.log(gen.next());
+
+
+
+// data structure 
+
+// array and object 
+
+// 1. array 
+
+
+
+
+let arr1 = ["vennila","butter scotch","lavendar","chocolate","pista",true,{id:123},undefined,null]
+
+console.log(arr1[1]);
+
+// 2.object 
+
+let obj = {
+    name : "keerthi",
+    "role" : "frontend",
+    "main" : "javascript",
+    isPass : true,
+    "known Language" : ["tamil","english","hindi"],
+    knownProgrammingLanguage : {
+        strugture : "html",
+        "style" : ["css","bootstrap","tailwind"],
+        programming : "js"
+    },
+    call : function(){
+        console.log("keerthi");
+        
+        
+    }
+
+}
+
+console.log(obj.knownProgrammingLanguage["style"][2]);
+
+
+console.log(obj.knownProgrammingLanguage["style"][2]);
+console.log(obj.knownProgrammingLanguage.programming);
+console.log(obj["known Language"][2]);
+console.log(obj.isPass);
+console.log(obj["known Language"][2]);
+
+
+
+
+
+
+
+
+console.log(obj.name);
+console.log(obj["role"]);
+console.log(obj.isPass);
+console.log(obj["known Language"][0]);
+console.log(obj.knownProgrammingLanguage.style);
+obj.call()
+
+console.clear();
+
+
+let uName = "keerthi"
+let uKnown = "js"
+
+let person = {
+    uName : uName,
+    hello : uKnown
+}
+
+
+console.log(person.hello);
+
+
+
+
+let dynamic = "employeeID"
+console.log(dynamic);
+
+
+let person1 = {
+    ['dynamic'] : "34556",
+    [dynamic] : "de234"
+}
+
+
+console.log(person1[dynamic]);
+console.log(person1.dynamic);
+
+// iteration 
+
+// for loop 
+
+for(let i=0;i<5;i++){
+    console.log(i+1);
+    
+}
+
+
+let arr2 = [10,20,30,"hello","jack Fruit",true]
+
+
+for(let i=0;i<arr2.length;i++){
+    console.log(arr2[i]);
+    
+}
+
+let str = "javascript"
+for(let a=0;a<str.length;a++){
+    console.log(str[a]);
+    
+}
+
+// for of loop - str array function.
+// for in loop - object
+
+
+function*greet(){
+    yield 1
+    yield 2
+    yield "three"
+    yield "four"
+}
+
+let gen1 = greet()
+
+
+for(let keerthi of str){
+    console.log(keerthi); 
+}
+
+
+// for in loop object 
+
+let human = {
+    name : "keerthi",
+    age : 22,
+    isStudent : true
+}
+for(let key in arr2){
+    console.log(arr2[key]);
+    
+}
 
 
 
