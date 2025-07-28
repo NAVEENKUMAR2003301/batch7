@@ -1,18 +1,17 @@
-// // // variables - data storing place 
+// // // variables - data storing place
 
-// // // 3 types 
+// // // 3 types
 
-// // // 1. var 
+// // // 1. var
 
-// // // 2. let 
+// // // 2. let
 
-// // // 3.const 
+// // // 3.const
 
-
-// // // var  
+// // // var
 // // // declaration and intialization
 
-// // var age; 
+// // var age;
 
 // // age = 30;
 
@@ -22,7 +21,7 @@
 
 // // console.log(age);
 
-// // // let 
+// // // let
 
 // // let newAge;
 
@@ -30,16 +29,15 @@
 
 // // newAge = "hi"
 
-
 // // console.log(newAge);
 
-// // // const 
+// // // const
 
 // // const newAge1 = 120;
 
 // // console.log(newAge1);
 
-// // // printing statement 
+// // // printing statement
 
 // // // console.log();
 // // // alert("hi everyone note")
@@ -51,7 +49,6 @@
 // // // let userName = prompt("enter your name")
 // // // console.log(userName);
 
-
 // // // console method
 // // let newUser;
 
@@ -60,13 +57,12 @@
 // // console.warn(newUser)
 // // console.clear()
 
-
 // // // dataTypes - 2
 
-// // // 1. primitive datatypes 
+// // // 1. primitive datatypes
 // // // 2. non primitive dataType
 
-// // // 1. primitive dataType 
+// // // 1. primitive dataType
 
 // // // 1.Number
 // // // 2.string
@@ -74,25 +70,23 @@
 // // // 4.null
 // // // 5.undefined
 
-// // // 2. non primitive dataType 
+// // // 2. non primitive dataType
 
 // // // 1.array
 // // // 2.object
-// // // 3.function 
-// // // 4.date 
-
+// // // 3.function
+// // // 4.date
 
 // // // number /
 
 // // // 1 2 3 e
 
-
-// // // Array 
+// // // Array
 
 // // // let arr = ["apple","orange","banana",true,"guava","dates","strawberry"]
 // // // console.log(arr[1]);
 
-// // // object 
+// // // object
 
 // // // let obj = {
 // // //     uName : "navi",
@@ -103,13 +97,12 @@
 
 // // // console.log(obj.uName);
 
+// // // operators
 
-// // // operators 
-
-// // // 1.arithmetic operator 
-// // // 2.assignment operator 
-// // // 3.comparision operator 
-// // // 4.logical operator 
+// // // 1.arithmetic operator
+// // // 2.assignment operator
+// // // 3.comparision operator
+// // // 4.logical operator
 
 // // // 1.arithmetic operator - mathematical value
 
@@ -123,13 +116,11 @@
 
 // // // console.log(10 + 10);
 
-
-// // // increment and decrement 
+// // // increment and decrement
 
 // // // let num = 10
 // // // num = num + 1
 // // // num = num + 1
-
 
 // // // console.log(num);
 
@@ -151,12 +142,9 @@
 
 // // // // console.log(sub);
 
-
 // // // let newNum = 40
 // // // let newNum1=--newNum
 // // // console.log(newNum1,newNum);
-
-
 
 // // // let a = 7
 // // // let b = --a
@@ -164,17 +152,15 @@
 
 // // // console.log(a,b,c);
 
-
-
 // // // let num = 43
-// // // let num1 = --num + --num 
+// // // let num1 = --num + --num
 
 // // // console.log(num,num1);
 // // // console.log(num-num1);
 
-// // // // assignment operator 
+// // // // assignment operator
 
-// // // // addition 
+// // // // addition
 
 // // // let age1 = 20
 
@@ -184,7 +170,6 @@
 
 // // // console.log(age1);
 
-
 // // // let age2 = 20
 
 // // // let additionalVal = 100
@@ -193,8 +178,7 @@
 
 // // // console.log(age2);
 
-
-// // // comparision operator or relational operator 
+// // // comparision operator or relational operator
 
 // // // < 5<2 false
 // // // > 5>2 true
@@ -223,12 +207,11 @@
 
 // // // console.clear(50>=50);
 
-
-// // // // logical operator 
+// // // // logical operator
 
 // // // // logical AND &&  true true = true
 
-// // // // logical OR || true false = true 
+// // // // logical OR || true false = true
 
 // // // // logical NOT ! true = false
 
@@ -241,22 +224,18 @@
 
 // // // console.log(age5>=18 && age5<= 30 );
 
-
 // // // console.clear(!(5>=5)&&!(5>=5));
 
-// // // concatination 
-
+// // // concatination
 
 // // // let str = "hello";
 // // // let str1 = "world";
 
 // // // console.log(str+" "+str1+" earth");
 
-
-// // // template string 
+// // // template string
 
 // // // console.log(`${str} ${str1} earth javascript`);
-
 
 // // // 5*1=5
 
@@ -265,26 +244,24 @@
 
 // // // console.log(typeof(5));
 
-
 // // // console.log(first+"*"+second+"="+first*second);
 
 // // // console.clear(typeof(`${first}*${second}=${first*second}`));
 
+// // // type conversion
 
-// // // type conversion 
+// // // 2 types
 
-// // // 2 types 
+// // // 1.implicit type conversion
+// // // 2.explicit type conversion
 
-// // // 1.implicit type conversion 
-// // // 2.explicit type conversion 
-
-// // // 1.implicit type conversion 
+// // // 1.implicit type conversion
 
 // // let str = "45"
 // // let num = 100
 
 // // console.log((num+str));
-// // // string 
+// // // string
 // // console.log(typeof("hi"+true));
 // // console.log(typeof("hi"+undefined));
 // // console.log(typeof("hi"+false));
@@ -301,7 +278,7 @@
 // // console.log(10+{10:20});
 // // console.log(10+"");
 
-// // // Boolean 
+// // // Boolean
 
 // // console.log(true + 10);
 
@@ -313,7 +290,7 @@
 
 // // console.clear(10-"3");
 
-// // // Explicit conversation 
+// // // Explicit conversation
 
 // // console.log(10+Number("10"));
 // // console.log(Number("    "));
@@ -330,25 +307,22 @@
 // // console.log(Boolean({4:5}));
 // // console.clear(Boolean(undefined));
 
-
 // // // flow control /
 
-// // // 1.conditional statement 
-// // // 2. looping state ment 
+// // // 1.conditional statement
+// // // 2. looping state ment
 
+// // // 1.conditional statement
 
-// // // 1.conditional statement 
-
-
-// // // 1.if statement 
-// // // 2. if else statement 
-// // // 3.if-else if-else statement 
-// // // 4.ternary operator 
-// // // 5.switch statement 
+// // // 1.if statement
+// // // 2. if else statement
+// // // 3.if-else if-else statement
+// // // 4.ternary operator
+// // // 5.switch statement
 // // // 6.nested if statement
 
 // // // condition + true = allow
-// // // if statement 
+// // // if statement
 
 // // let a = 10
 // // let b = 20
@@ -356,31 +330,30 @@
 
 // // if(a<b){
 // //     console.log(c);
-    
+
 // // }
 
-// // // if else statement 
+// // // if else statement
 
 // // let data = false
 
 // // if(data){
 // //     console.log("successfully received");
-    
+
 // // }else{
 // //     console.log("data not valid")
 // // }
 
-
-// // // if-else if -else 
+// // // if-else if -else
 // // let hours = 19
 // //     if(hours >=1 && hours <=6 ){
-// //         console.log("early morning"); 
+// //         console.log("early morning");
 // //     }else if(hours>=7 && hours<=11){
 // //         console.log("morning");
 
 // //     }else if(hours>=12 && hours<=15){
 // //         console.log("afternoon");
-        
+
 // //     }else{
 // //         console.log("evening");
 // //     }
@@ -398,10 +371,10 @@
 // //     switch(trafficSignal){
 // //         case "red" : console.log("stop the vechile"); break;
 // //         case "yellow" : console.log("start the vechile");break;
-// //         case "green" : console.log("go");break;    
+// //         case "green" : console.log("go");break;
 // //     }
 
-// //     // nested if 
+// //     // nested if
 
 // //     let qualification = 12
 // //     let weight = 30
@@ -413,41 +386,34 @@
 // //                 console.log("your selected");
 // //             }else{
 // //                 console.log("your weight not eligible");
-                
+
 // //             }
 // //         }else{
 // //             console.log("your height not eligible");
-            
+
 // //         }
 // //     }else{
 // //         console.log("your qualification is not eligible");
-        
+
 // //     }
 
-    
-    
-    
-// //     // ternary operator  
-    
+// //     // ternary operator
+
 // //     // condition ? "statement" : "statement "
-    
+
 // //    let allow = null
 
 // //    allow ? console.clear("ok you go") : console.clear("you not go");
-      
 
+// // // looping statement
 
-// // // looping statement 
-
-// // // 1.for loop 
+// // // 1.for loop
 // // // 2.while loop
-// // // 3.do while 
+// // // 3.do while
 // // // 4. for of loop
 // // // 5. for in loop
 
-
-
-// // // for loop 
+// // // for loop
 
 // // // for(var intialization ; condition ; counter){
 
@@ -457,9 +423,9 @@
 
 // //     if(i%2==1){
 // //         console.log(i);
-        
+
 // //     }
-  
+
 // // }
 
 // // // intialiazation i=1   1     2    3     4   ...  10    11
@@ -470,23 +436,21 @@
 
 // // // result          ,    1     2     3     4  ...   10
 
-
-// // // while loop 
+// // // while loop
 
 // // // intizilation
 
 // // // while(condition){
-// // //     statement 
+// // //     statement
 // // //     counter
 // // // }
-
 
 // // let a1 = 10;
 
 // // while(a1<0){
 // //     console.log(a1);
 // //     a1--
-    
+
 // // }
 
 // // // intiazaliation
@@ -500,40 +464,32 @@
 // // let number  = 10
 
 // // do{
-    
+
 // //         console.log(number);number++
-        
-    
-    
+
 // // }
 // // while (number<20)
 // // console.clear();
 
-
-// //     // for of loop 
-
+// //     // for of loop
 
 // //     // let lang = "javascript"
 
 // //     // for(let a of lang){
 // //     //     console.log(a);
-        
+
 // //     // }
 
-// //     // for in loop 
+// //     // for in loop
 
 // //     // for(let b in lang){
 // //     //     console.log(lang[b]);
-        
+
 // //     // }
-
-
-
-
 
 // // // function one(){
 // // //     console.log("hello everyone");
-    
+
 // // // }
 
 // // // one()
@@ -546,14 +502,12 @@
 // // // function print(){
 // // //     console.log("hello ",person.name);
 // // //     console.log("hello ",person.age);
-    
+
 // // // }
 
 // // // print()
 
-
-
-// // // 1. named function 
+// // // 1. named function
 
 // // // function hello(){
 // // //     statement
@@ -562,23 +516,22 @@
 
 // // // hello()
 
-// // // 2.annonymous function 
+// // // 2.annonymous function
 
 // // // let hi = function(){
-// // //     console.log("h");   
+// // //     console.log("h");
 // // // }
 
 // // // hi()
 
-// // // 3.arrow function 
+// // // 3.arrow function
 
 // // // let arrow = ()=>{
 // // //   console.log("hello");
-  
+
 // // // }
 
 // // // arrow()
-
 
 // // // let person1 = {
 // // //     name : "livi",
@@ -593,18 +546,13 @@
 // // // arrow("livi",22)
 // // // arrow("navi",22)
 
-
-
 // // // let arrow1 = ()=>{
 // // //     console.log(`hi ${person1.name}, your age is : ${person1.age}`);
 // // // }
 
 // // // arrow1()
 
-
-
 // // // default parameter
-
 
 // // // let employeeId = "Av123"
 
@@ -614,12 +562,11 @@
 
 // // // function userData(uName="people",newId=20){
 // // //     console.log(`hi ${uName}, my Age ${newId}`);
-    
+
 // // // }
 
 // // // userData("navi",3)
 
- 
 // // // function findAreaOfRect(l,b){
 // // //     let condition = true;
 // // //     if(condition){
@@ -631,10 +578,6 @@
 // // // let z =  findAreaOfRect(10,20)
 // // // console.log(z);
 
-
-
-
-
 // // // function hi(num){
 // // //     return(num**3)
 // // // }
@@ -643,7 +586,6 @@
 
 // // // alert(calc);
 
-
 // // // function nonReturn (num){
 // // //     return(num);
 // // // }
@@ -651,11 +593,9 @@
 // // // let add = nonReturn(3)
 // // // console.log(add);
 
-
 // // // var -- global scope
 // // // let -- block scope
 // // // const -- block scope
-
 
 // // // console.log(aa);
 // // // var aa = 10;
@@ -663,46 +603,40 @@
 // // // let bb = 10
 // // // console.log(bb);
 
-
 // // // const cc = 10
 // // // console.log(cc);
 
-// // var - global scope 
+// // var - global scope
 
 // function outerFunction(){
 //     if(true){
-//         var functionVar = "I am VAR Variable"; 
+//         var functionVar = "I am VAR Variable";
 //     }
 //     console.log(functionVar);
 // }
 // outerFunction()
 
-
-// // let - block scope 
-
+// // let - block scope
 
 // function letVar(){
 //      if(true){
-//         let functionLet = "I am LET Variable"; 
+//         let functionLet = "I am LET Variable";
 //         console.log(functionLet);
 //     }
 // }
 
 // letVar()
 
-
-// // const - block scope 
-
+// // const - block scope
 
 // function constVar(){
 //     if(true){
-//         let functionConst = "I am Const Variable"; 
+//         let functionConst = "I am Const Variable";
 //         console.log(functionConst);
 //     }
 // }
 
 // constVar()
-
 
 // // var a =10;
 // // let b = 20
@@ -714,16 +648,12 @@
 // //     var c = 300
 
 // //     console.log(a+b+c);
-    
+
 // // }
 
 // // console.log(a+b+c);
 
-
 // // accessGlobalScope()
-
-
-
 
 // let innerFunction = ()=>{
 //    if(true){
@@ -732,35 +662,31 @@
 //     var c = 30
 
 //     console.log(a+b+c);
-//    } 
+//    }
 
 //    console.log(a);
 //    console.log(b);
 //    console.log(c);
-   
-    
+
 // }
 
 // innerFunction()
 
-
-
 // hi()
 // function hi(){
 //     console.log("hi");
-    
-// }
 
+// }
 
 // let hello = function(){
 //     console.log("hello");
-    
+
 // }
 // hello()
 
 // var how = ()=>{
 //     console.log("how");
-    
+
 // }
 // how()
 
@@ -771,38 +697,32 @@
 
 // function two(){
 //     console.log("i am a callback Function");
-    
+
 // }
 
-
 // one(two())
-
 
 // function add(callback,a,b){
 //     console.log(a+b); //60
 //     callback(20,20)
-    
+
 // }
 
 // function sub(num1,num2){ //num1-20,num2-20
 //     console.log(num1-num2);
-    
+
 // }
 
 // add(sub,20,40)
 
 // let apple = (a,b)=>{
 //     console.log(a+b);
-    
-// } 
+
+// }
 
 // apple(20,30)
 
-
-
-
-// // currying 
-
+// // currying
 
 // function calc(a){
 //     return function(b){
@@ -814,22 +734,16 @@
 
 // calc(1)(2)(3);
 
-
-
 // self invoke function (IIFE)
 
-
-(function(a,b){
-    console.log
-    (`${a} your sale is now keep shop something, your age : ${b}`)
-    
-})("navi",22)
+(function (a, b) {
+  console.log(`${a} your sale is now keep shop something, your age : ${b}`);
+})("navi", 22);
 
 // //  uncurrying
 
-function addd(a,b,c){
-   alert(a+b+c)
-    
+function addd(a, b, c) {
+  alert(a + b + c);
 }
 
 // addd(1,2,3)
@@ -844,16 +758,16 @@ function addd(a,b,c){
 //      break;
 // }
 
-// generator function  
+// generator function
 
-function*genFunction(){
-    yield "first val"
-    yield  2
-    yield "second"
-    return "final val"
+function* genFunction() {
+  yield "first val";
+  yield 2;
+  yield "second";
+  return "final val";
 }
 
-let gen = genFunction()
+let gen = genFunction();
 
 console.log(gen.next().value);
 console.log(gen.next().value);
@@ -861,44 +775,45 @@ console.log(gen.next().value);
 console.log(gen.next());
 console.log(gen.next());
 
+// data structure
 
+// array and object
 
-// data structure 
+// 1. array
 
-// array and object 
-
-// 1. array 
-
-
-
-
-let arr1 = ["vennila","butter scotch","lavendar","chocolate","pista",true,{id:123},undefined,null]
+let arr1 = [
+  "vennila",
+  "butter scotch",
+  "lavendar",
+  "chocolate",
+  "pista",
+  true,
+  { id: 123 },
+  undefined,
+  null,
+];
 
 console.log(arr1[1]);
 
-// 2.object 
+// 2.object
 
 let obj = {
-    name : "keerthi",
-    "role" : "frontend",
-    "main" : "javascript",
-    isPass : true,
-    "known Language" : ["tamil","english","hindi"],
-    knownProgrammingLanguage : {
-        strugture : "html",
-        "style" : ["css","bootstrap","tailwind"],
-        programming : "js"
-    },
-    call : function(){
-        console.log("keerthi");
-        
-        
-    }
-
-}
+  name: "keerthi",
+  role: "frontend",
+  main: "javascript",
+  isPass: true,
+  "known Language": ["tamil", "english", "hindi"],
+  knownProgrammingLanguage: {
+    strugture: "html",
+    style: ["css", "bootstrap", "tailwind"],
+    programming: "js",
+  },
+  call: function () {
+    console.log("keerthi");
+  },
+};
 
 console.log(obj.knownProgrammingLanguage["style"][2]);
-
 
 console.log(obj.knownProgrammingLanguage["style"][2]);
 console.log(obj.knownProgrammingLanguage.programming);
@@ -906,110 +821,360 @@ console.log(obj["known Language"][2]);
 console.log(obj.isPass);
 console.log(obj["known Language"][2]);
 
-
-
-
-
-
-
-
 console.log(obj.name);
 console.log(obj["role"]);
 console.log(obj.isPass);
 console.log(obj["known Language"][0]);
 console.log(obj.knownProgrammingLanguage.style);
-obj.call()
+obj.call();
 
 console.clear();
 
-
-let uName = "keerthi"
-let uKnown = "js"
+let uName = "keerthi";
+let uKnown = "js";
 
 let person = {
-    uName : uName,
-    hello : uKnown
-}
-
+  uName: uName,
+  hello: uKnown,
+};
 
 console.log(person.hello);
 
-
-
-
-let dynamic = "employeeID"
+let dynamic = "employeeID";
 console.log(dynamic);
 
-
 let person1 = {
-    ['dynamic'] : "34556",
-    [dynamic] : "de234"
-}
-
+  ["dynamic"]: "34556",
+  [dynamic]: "de234",
+};
 
 console.log(person1[dynamic]);
 console.log(person1.dynamic);
 
-// iteration 
+// iteration
 
-// for loop 
+// for loop
 
-for(let i=0;i<5;i++){
-    console.log(i+1);
-    
+for (let i = 0; i < 5; i++) {
+  console.log(i + 1);
 }
 
+let arr2 = [10, 20, 30, "hello", "jack Fruit", true];
 
-let arr2 = [10,20,30,"hello","jack Fruit",true]
-
-
-for(let i=0;i<arr2.length;i++){
-    console.log(arr2[i]);
-    
+for (let i = 0; i < arr2.length; i++) {
+  console.log(arr2[i]);
 }
 
-let str = "javascript"
-for(let a=0;a<str.length;a++){
-    console.log(str[a]);
-    
+let str = "javascript";
+for (let a = 0; a < str.length; a++) {
+  console.log(str[a]);
 }
 
 // for of loop - str array function.
 // for in loop - object
 
-
-function*greet(){
-    yield 1
-    yield 2
-    yield "three"
-    yield "four"
+function* greet() {
+  yield 1;
+  yield 2;
+  yield "three";
+  yield "four";
 }
 
-let gen1 = greet()
+let gen1 = greet();
 
-
-for(let keerthi of str){
-    console.log(keerthi); 
+for (let keerthi of str) {
+  console.log(keerthi);
 }
 
-
-// for in loop object 
+// for in loop object
 
 let human = {
-    name : "keerthi",
-    age : 22,
-    isStudent : true
+  name: "keerthi",
+  age: 22,
+  isStudent: true,
+};
+for (let key in arr2) {
+  console.log(arr2[key]);
 }
-for(let key in arr2){
-    console.log(arr2[key]);
-    
+
+
+console.clear();
+
+// es6 edition 
+
+// 1.spread opreator
+// 2.rest operator
+
+// 1.spread opreator 
+
+// 1.array -[...]
+// 2.objects - {...}
+
+// * two arr,obj merge and clone
+
+// 2.rest operator 
+
+// 1.function - (...)
+
+// * multiple arugument store 
+
+// shallow copy 
+// let newOne = one
+
+// newOne[0] = "one"
+// one[2] ="four" 
+
+// console.log(newOne,one);
+let one = [1,2,3,4,5]
+let two = ["one","two","three"]
+
+let newArr = [...one,...two]
+
+one[0] = "one"
+
+console.log(newArr,one);
+
+
+let fruit = ["apple","banana"]
+let veg = ["potato","tomoto"]
+
+let newArr1 = [...fruit,...veg,"brinjal","butter Guard"]
+
+console.log(newArr1);
+
+// object spread operator 
+
+
+let empDeti = {
+  empId : "id123",
+  empName : "navi",
+  empRole : "developer"
 }
 
 
+let team2 = {
+  ...empDeti,
+  empSalary : 100000,
+  team2position : "full Stack"
+}
+
+let team3 ={
+  ...team2,
+  detials :"karur"
+}
+
+let newObj = { ...team3, detials: "coiambatore"};
+
+console.log(newObj);
+
+
+// rest operator 
+
+// function
+
+//multiple argument store 
+
+
+function rest(a,b,c,d,...e){
+  console.log(a,b,e);  
+}
+
+rest(1,2,3,4,5,6,7,8,9)
 
 
 
 
+
+
+// destructuring 
+
+
+// normal 
+let arrr = [10,20,30,40,"hello"]
+let final = arrr[1]
+
+console.log(final);
+
+
+// des 
+
+let [a,b,c,d,e] = arrr
+
+console.log(a,b,c,d,e);
+
+
+let key = [10,2,3,4,5,6,54,3,32,98,12]
+
+let [z,y,w,v,...u] = key
+
+console.log(z,y,w,u);
+
+
+
+// if nested 
+
+let nest = [1,2,3,4,[5,6,[7]]]
+
+console.log(nest);
+
+
+let [k,l,m,n,[o,p,[q]]] = nest
+
+console.log(k,l,m,n,o,p,q);
+
+
+// array methode ,manipulate 
+
+// 1) push() --> last add
+// 2) pop () --> last remove
+// 3) shift() --> first remove 
+// 4) unshift () --> first add 
+// 5) splice ()
+
+
+let num = [100,200,300,400]
+
+num.push(500,600,700)
+
+console.log(num);
+
+num.pop()
+
+console.log(num);
+
+num.unshift(1,2)
+
+console.log(num);
+
+num.shift()
+
+console.log(num);
+
+
+// splice 
+
+
+let num1 = [10,20,30]
+
+num1.splice(0,3,300,400)  //(Sindex,endingNum,addingElement)
+
+console.log(num1);
+
+console.clear();
+
+let arr9 = [10,20,30,40,50]
+arr9.splice(0,3,100,200,300)
+console.log(arr9);
+
+
+// array merge method 
+
+// 1.concat 
+// 2.slice 
+// 3.flat
+// 5.fill
+
+// 1explain /
+
+let arr5 = ["apple","orange"]
+let arr6 = [1,2,3,4]
+
+let newArr3 = arr5.concat(arr6)
+
+console.log(newArr3);
+
+// 2.slice 
+
+let arr7 = [11,12,13,14,15]
+let newArr4 = arr7.slice(1,4)
+
+let arr8 = ["apple","orange","graphs","guava"]
+let newArr5 = arr8.slice(2,3) 
+
+console.log(newArr4);
+
+console.log(newArr5);
+
+
+// 3.flat 
+
+// let arr10 = [1,2,[3,4]]
+
+// let [aa,bb,[cc,dd]] = arr10
+
+// console.log(cc);
+
+
+let arr11 = [1,2,[4,5,[6,7,8,[9,10,[11]]]]]
+
+let newArr6 = arr11.flat(Infinity)
+
+console.log(newArr6);
+
+
+// 4.fill 
+
+
+let arr12 = [10,20,30,40,50,60]
+
+arr12.fill(22,3,6)
+
+console.log(arr12);
+
+
+// arr - acending 
+
+// 1.sort 
+
+let arr13 = ["b",5,3,4,2,1,8,111,11111111111119,24555555555,"a","A"]
+
+arr13.sort()
+
+console.log(arr13);
+
+// reverse 
+
+
+arr13.reverse()
+console.log(arr13);
+
+
+let arr14 = [45,3,3,4,5,6,7,,4,3,2,,7,78,32,2,3,4,,5,3,2,23,4,,2123,4,3,,45]
+let hel = arr14.includes(100)
+console.log(hel);
+
+// arr -> string 
+
+// join 
+
+let arr15 = [1,2,3,4,5]
+
+let newArr7 = arr15.join()
+
+console.log(newArr7);
+
+
+//to string
+
+let arr16 = [23,33,43]
+let newArr8 = arr16.toString()
+
+console.log(newArr8);
+
+
+// indexOf 
+
+let arr17 = [10,20,30,40,30,50,30]
+let newArr9 = arr17.indexOf(30,3)
+
+console.log(newArr9);
+
+
+//lastIndexOf
+
+let newArr10 = arr17.lastIndexOf(30,-2)
+
+console.log(newArr10);
 
 
 
