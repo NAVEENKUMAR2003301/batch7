@@ -1176,6 +1176,319 @@ let newArr10 = arr17.lastIndexOf(30,-2)
 
 console.log(newArr10);
 
+console.clear();
+
+
+let arr19 = [3,1,4,2]
+
+arr19.sort()
+
+arr19.reverse()
+
+console.log(arr19);
+
+// higher order method 
+
+// 1.forEach 
+// 2.Map 
+
+// 1.Explain 
+let fruitShop = ["apple","banana","orange","guava"]
+
+fruitShop.forEach(printFruit)
+
+function printFruit(cEle,index,total){
+  console.log(total);
+  
+} 
+
+ let forE = fruitShop.forEach((c,i,t)=>{
+  return(i);
+  
+})
+
+console.log(forE);
+
+// 2.explain 
+
+
+let mapp = fruitShop.map((a,i,to)=>{
+  return (i);
+  
+})
+
+console.log(mapp);
+
+
+let fr = ["banana","orange","guava","lemon","apple","cherry"]
+
+
+let shop = fr.map((c)=>c.toUpperCase()).sort()
+
+console.log(shop);
+
+
+// 3.filter
+// 4.find
+
+let employee = [
+  {emName : "a" , emSalary : 100000},
+  {emName : "b" , emSalary : 200000},
+  {emName : "c" , emSalary : 300000}
+]
+
+let SalaryDate = employee.filter((val)=>val.emSalary>=200000
+)
+
+console.log(SalaryDate[SalaryDate.length-1]);
+
+
+// 4.explain 
+
+let findd = employee.find((val)=>{
+  return val.emSalary>100000
+})
+
+console.log(findd);
+
+
+
+
+// higher order function 
+
+// 1. sort
+// 2.some 
+// 3.every 
+
+
+let arr20 = [10,5,100,30,6,2,true,"a"]
+arr20.sort()
+
+console.log(arr20);
+
+
+let hfs = arr20.sort((a,b)=>{
+  return b-a
+})
+
+console.log(hfs);
+
+
+// some 
+
+let somee = [2,2,8,4,50]
+
+let someVal = somee.some((cEle)=>{
+  return cEle%2 == 0
+})
+
+console.log(someVal);
+
+
+// every 
+
+let everyVal = somee.every((cEle)=>{
+  return cEle%2==0
+})
+
+console.log(everyVal);
+
+console.clear();
+
+
+// reduce 
+
+let addAll = [1,2,3,4,5,22]
+
+let total = 0
+
+for(let i=0;i<addAll.length;i++){
+  total += addAll[i]
+}
+
+console.log(total);
+
+
+
+let h = 0 ;
+
+addAll.forEach((cE)=>{
+  h = h+cE
+})
+
+console.log(h);
+
+
+let length = [1,3,4]
+
+let f = length.reduce((acc,cEle,i,total)=>{ //0
+   return acc+cEle // 0 + 1 = 1 , 1+3 = 4 , 4 + 4 = 8
+},0) //1 // 4 //8
+
+
+console.log(f);
+
+
+let employ = [
+  {eN : "a", salary : 1000},
+  {eN : "b", salary : 2000},
+  {eN : "c", salary : 3000}
+]
+
+let g = employ.reduce((acc,ce,i,to)=>{ //acc=1000 = 3000 = 6000
+  return acc+ce.salary // 0 +1000  // 1000 +2000 // 3000 + 3000 = 6000 // 6000 + c.s
+},0) // 1000 // 3000 // 6000
+
+console.log(g);
+
+
+// string method 
+
+
+let str3 = "hello world"
+// charAt - index to value find
+
+
+console.log(str3.charAt(7));
+
+
+// charCodeAt - index to asscii value find
+
+console.log(str3.charCodeAt(7));
+
+
+// includes - find the value return boolean
+
+
+console.log(str3.includes("o"));
+
+
+// indexOf - give the value find index(l to r)
+
+console.log(str3.indexOf("l",4));
+
+// lastIndexOf - give the value find index (r to l)
+
+console.log(str3.lastIndexOf("l",2));
+
+
+// repeat - ans repeat
+
+console.log(str3.repeat(2));
+
+// replace - replace the word
+
+console.log(str3.replace("hello","js"));
+
+// replaceAll
+
+console.log(str3.replaceAll("hello","javaScript"));
+
+
+//slice - cut the element and return the value
+
+console.log(str3.slice(1,7));
+
+
+//split - split the value 
+
+console.log(str3.split(" "));
+
+//startWith - starting value its correct return true
+
+console.log(str3.startsWith("h"));
+
+//endsWidth - ending value correct its return true
+
+console.log(str3.endsWith("d"));
+
+let str4 = " helLLLlo "
+// trim - reduce the gap 
+
+console.log(str4.trimEnd());
+
+// lowercase - toLowerCase()
+// uppercase - toUpperCase()
+
+console.log(str4.toUpperCase());
+
+console.log(str4.toLowerCase());
+
+// -----
+
+console.clear();
+
+// Math objects 
+
+//Math.abs -value return plus value
+console.log(Math.abs(-2));
+
+//Math.sign -10 = -1, 0=0 , 10=1
+
+console.log(Math.sign(434));
+
+//Math.sqrt  9=3, 25 = 5 , 4 = 2
+
+console.log(Math.sqrt(36));
+
+//Math.cbrt  8=2 ,125 = 5, 27 = 3
+
+console.log(Math.cbrt(8));
+
+//Math.pow  (base,exponent) (2,3) = 2*2*2 = 8
+
+console.log(Math.pow(5,5));
+
+// min - minimum value find
+
+console.log(Math.min(10,2,3,4,5,4,3));
+// max - maximum value find
+console.log(Math.max(10, 2, 3, 4, 5, 4, 3));
+
+// math.random - random num (0.1 to 0.9)
+let pokie = Math.random()*10
+
+console.log(pokie);
+
+
+// math.floor - rounded value in lowest
+
+console.log(Math.floor(pokie));
+
+console.log(Math.round(pokie));
+
+console.log(Math.trunc(pokie));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
