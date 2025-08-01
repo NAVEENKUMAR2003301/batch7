@@ -1461,34 +1461,256 @@ console.log(Math.trunc(pokie));
 
 
 
+console.clear();
+
+// Date 
+
+let date = new Date;
+
+// get 
+
+console.log(date.getFullYear());
+
+console.log(date.getMonth()+1);
+
+console.log(date.getDate());
+
+console.log(date.getHours());
+
+console.log(date.getMinutes());
+
+console.log(date.getSeconds());
+
+// set 
+
+date.setFullYear(2003,6,1)
+
+console.log(date);
+
+date.setMonth(0,2)
+
+console.log(date);
+
+date.setHours(4,5)
+
+console.log(date);
+
+date.setMinutes(5)
+
+console.log(date);
 
 
 
+console.log(date.toLocaleDateString());
+console.log(date.toLocaleTimeString());
+
+console.clear();
+
+// Asynchronous
+
+
+function one1(){
+  console.log("first");
+  
+}
+
+function one2(){
+  console.log("second");
+  
+}
+
+function one3(){
+  console.log("therid");
+  
+}
+
+// one1()
+// setTimeout(one2,2000)
+// one3()
+
+
+// promise 
+
+// 1.resolve - data success
+// 2.reject - not reaceived
+// 3.bending
+
+
+// let newPromise = new Promise ((resolve,reject,bending)=>{
+//   let data = false;
+
+//   if(data){
+//     resolve("data received")
+//   }
+//   else{
+//     reject("data not received")
+//   }
+// })
+
+// newPromise.then((message)=>{
+//   console.log(`success : ${message}`);
+  
+// })
+
+// .catch((error)=>{
+//   console.log(`Not received : ${error}`);
+
+// })
+
+// // Api call method 
+
+// fetch("https://fakestoreapi.com/products/3")
+
+// .then((response)=>{
+//   return response.json()
+// })
+
+// .then((data)=>{
+//   let men = data.title
+//   let price = data.price
+//   let description = data.description
+//   console.log(men);
+//   console.log(price);
+//   console.log(description);
+// })
+// .catch((error)=>{
+//   console.log(error);
+  
+// })
+
+// console.clear();
+
+
+// Dom document object model
+
+// dom tree 
+
+// dom Technique
+
+// 1.selecting Element
+// 2.traversing Element
+// 3.manipulating element
+
+
+// 1. selecting element 
+
+let domSelect = document.getElementsByTagName("h1")
+console.log(domSelect);
+
+
+// 1.getElmentById - id
+// 2.getElementByClassName - class
+// 3. quaryselector - # , . , h1
+// 4. quaryselectorAll - all same element select
+
+
+let id = document.getElementById("one")
+console.log(id);
+
+let classs = document.getElementsByClassName("content2")
+
+console.log(classs);
+
+
+let qsID = document.querySelector("#we")
+console.log(qsID);
+
+
+let qsClass = document.querySelector(".content2")
+
+console.log(qsClass);
+
+let qsTag = document.querySelector("h1")
+console.log(qsTag);
+
+let qsAll = document.querySelectorAll("p")
+
+console.log(qsAll);
+console.clear();
+
+
+// traversing elements 
+
+// parent 
+
+// let getParent = document.querySelector(".child")
+
+// console.log(getParent.parentElement);
+// console.log(getParent.parentNode);
+
+// child
+
+// let getChild = document.querySelector(".parent")
+
+// console.log(getChild.childElementCount);
+// console.log(getChild.children);
+// console.log(getChild.childNodes);
+// console.log(getChild.firstElementChild);
+// console.log(getChild.lastElementChild);
+
+// console.clear();
+
+
+//siblings
+
+// let getSibling = document.querySelector(".child2")
+// console.log(getSibling);
+// console.log(getSibling.nextElementSibling);
+// console.log(getSibling.previousElementSibling);
+// console.log(getSibling.nextElementSibling);
+// console.log(getSibling.previousElementSibling);
+
+// console.clear();
+
+console.clear();
+
+
+// manipulating 
+
+// get 
+
+let input = document.querySelector("input")
+let button = document.querySelector("button")
+let ul = document.querySelector("ul")
+
+// manipulate 
+
+button.addEventListener("click",()=>{
+ let inputVal = input.value;
+ let li = document.createElement("li");
+ li.textContent = inputVal;
+
+ ul.prepend(li);
+})
+
+
+ 
+  
 
 
 
+// calci 
 
+// get 
 
+let inputA = document.getElementById("display")
 
+function cal(event){
+  inputA.value += event
+}
 
+function clr() {
+  inputA.value=""
+}
 
+function del(){
+  let inp = inputA.value.slice(0,inputA.value.length-1) // slice(0,3) = [1,2,3,4,4,5] = [1,2,3]
+  inputA.value = inp
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function fin(){
+  inputA.value = eval(inputA.value)
+}
 
 
 
